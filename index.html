@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Website</title>
+
+    <!-- Link CdnJs Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Link Swiper -->
+     <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Tubruk</h2>
+            </a>
+
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonial" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+         <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Kopi Terbaik</h2>
+                    <h3 class="subtitle">Jadikan hari Anda menyenangkan dengan kopi spesial</h3>
+                    <p class="description">Selamat datang di surga kopi, di mana setiap biji kopi menceritakan sebuah kisah dan setiap cangkir menimbulkan kegembiraan.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+         </section>
+
+         <!-- About Section -->
+          <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-detail">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat commodi molestiae ducimus amet ad illum dolore illo a. Iste qui ea odio recusandae aliquid tempore sit inventore eum, tenetur dicta?</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Menu Section -->
+           <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Berbagai macam kopi panas mengepul untuk membuat Anda segar dan ringan</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="Cold Beverages" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Kopi dingin yang lembut dan berbusa membuat Anda sejuk</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.png" alt="Refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Buah-buahan dan minuman dingin yang menyegarkan membuat terasa segar</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="Special Combo" class="menu-image">
+                        <h3 class="name">Special Combo</h3>
+                        <p class="text">Pertarungan makan dan minum favorit Anda</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="Dessert" class="menu-image">
+                        <h3 class="name">Dessert</h3>
+                        <p class="text">Puaskan selera Anda dan ajak Anda menikmati kuliner</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.png" alt="Burger Frenchfries" class="menu-image">
+                        <h3 class="name">Burger Frenchfries</h3>
+                        <p class="text">Gigitan cepat untuk memuaskan rasa lapar ukuran kecil Anda</p>
+                    </li>
+                </ul>
+            </div>
+           </section>
+
+           <!-- Testimonials Section -->
+            <section class="testimonial-section" id="testimonial">
+                <h2 class="section-title">Testimonials</h2>
+                <div class="section-content">
+                    <div class="slider-container swiper">
+                        <div class="slider-wrapper">
+                            <ul class="testimonial-list swiper-wrapper">
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-1.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Sarah Umamih</h3>
+                                    <i class="feedback">"Saya sangat menyukai daging panggang. Sangat seimbang dan kaya. Akan memesan lagi!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-2.jpg" alt="User" class="user-image">
+                                    <h3 class="name">James Lebron</h3>
+                                    <i class="feedback">"Rasa matcha Fanstastis. Segar dan aromatik. Pengiriman cepat!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-3.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Michael Tata</h3>
+                                    <i class="feedback">"Campuran espresso yang enak! Rasa halus dan berani. Pengiriman cepat juga!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-4.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Emi Hasanah</h3>
+                                    <i class="feedback">"Kacang segar berkualitas tinggi dan pengiriman cepat. Sangat direkomendasikan!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-5.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Emil Ridwan</h3>
+                                    <i class="feedback">"Kopi tanpa kafein terbaik yang pernah saya coba Halus dan beraroma. Tiba segera!"</i>
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-slide-button swiper-button-prev"></div>
+                            <div class="swiper-slide-button swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+             <section class="gallery-section" id="gallery">
+                <h2 class="section-title">Gallery</h2>
+                <div class="section-content">
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+             <!-- Contact Section -->
+              <section class="contact-section" id="contact">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>123 bandung jawa barat indonesia</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@ngopibareng.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(123) 456-12345</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Sunday: Close</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.minumkopienak.com</p>
+                        </li>
+                    </ul>
+
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                        <input type="email" placeholder="Your Email" class="form-input" required>
+                        <textarea placeholder="Your Message" class="form-input" required></textarea>
+                        <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+              </section>
+
+              <!-- Footer Section -->
+               <footer class="footer-section">
+                <div class="section-content">
+                    <p class="copyright-text">&copy; 2026 Royhan Farisa Coffee Shop</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <p class="police-text">
+                        <a href="#" class="police-link">Privacy Police</a>
+                        <span class="separator">.</span>
+                        <a href="#" class="police-link">Refund Police</a>
+                    </p>
+                </div>
+               </footer>
+    </main>
+
+    <!-- Link Swiper Js -->
+     <script src="swiper.js"></script>
+     <!-- Link Custum Js -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
